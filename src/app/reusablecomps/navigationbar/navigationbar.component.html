@@ -1,34 +1,37 @@
-<nav>
+<div class="header-background">
+  <nav>
   <ul>
     <li>
-      <a [routerLink]="['/home']" routerLinkActive="router-link-active">
-        home
-    </a>
+      <a [routerLink]="['/']" routerLinkActive="active">
+        {{ homepage }}
+      </a>
     </li>
     <li>
       <a [routerLink]="['/about-us']" routerLinkActive="router-link-active">
-        over ons
+        {{ aboutUs }}
       </a>
     </li>
     <li>
       <a [routerLink]="['/contact']" routerLinkActive="router-link-active">
-        contact
+        {{ contact }}
       </a>
     </li>
     <li>
       <a [routerLink]="['/board']" routerLinkActive="router-link-active">
-        bestuur
+        {{ board }}
       </a>
     </li>
     <li>
       <a [routerLink]="['/calendar']" routerLinkActive="router-link-active">
-        kalender
+        {{ calendar }}
       </a>
     </li>
     <li>
-        <a [routerLink]="['/events']" routerLinkActive="router-link-active" >
-          events
-        </a>
+      <a [routerLink]="['/events']" routerLinkActive="router-link-active">
+        {{ events }}
+      </a>
     </li>
   </ul>
 </nav>
+
+</div>

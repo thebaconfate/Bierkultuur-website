@@ -12,6 +12,7 @@ import { EventsComponent } from './events/events.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavigationbarComponent } from './reusablecomps/navigationbar/navigationbar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,10 @@ import { NavigationbarComponent } from './reusablecomps/navigationbar/navigation
     PageNotFoundComponent,
     NavigationbarComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
