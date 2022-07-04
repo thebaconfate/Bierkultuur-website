@@ -1,0 +1,90 @@
+{
+  "2022-2023": {
+    "coreBoard": {
+      "president": { "firstName": "Brent", "lastName": "Cornet" },
+      "vice-president": { "firstName": "Jorre", "lastName": "Bultynck" },
+      "treasurer": { "firstName": "Jakob", "lastName": "Ghafariyan" },
+      "secretary": { "firstName": "Ward", "lastName": "Streulens" }
+    },
+    "baptismTeam": {
+      "baptismMaster": { "firstName": "Wout", "lastName": "Wilmaers" },
+      "baptismResponsibles": [
+        {
+          "function": "viceBaptismMaster",
+          "firstName": "Tuur",
+          "lastName": "Defever"
+        },
+        {
+          "function": "baptismResponsible",
+          "firstName": "Johan",
+          "lastName": "Xhonneux"
+        },
+        {
+          "function": "baptismResponsible",
+          "firstName": "Robbe",
+          "lastName": "Bockstal"
+        },
+        {
+          "function": "baptismResponsible",
+          "firstName": "Ewout",
+          "lastName": "Zoons"
+        }
+      ]
+    },
+    "otherFunctions": [
+      { "function": "Cantor", "firstName": "Quinten", "lastName": "Averhals" },
+      { "function": "", "firstName": "", "lastName": "" },
+      {
+        "function": "Bier & kaas verantwoordelijke",
+        "firstName": "Leon",
+        "lastName": "Bauweraerts"
+      },
+      {
+        "function": "Bier & kaas verantwoordelijke",
+        "firstName": "Yorben",
+        "lastName": "Van de Weghe"
+      },
+      {
+        "function": "Vertrouwenspersoon",
+        "firstName": "Jente",
+        "lastName": "Declercq"
+      },
+      {
+        "function": "Vertrouwenspersoon",
+        "firstName": "Ruben",
+        "lastName": "Doucet"
+      },
+      {
+        "function": "Vertrouwenspersoon",
+        "firstName": "Arthur",
+        "lastName": "Schauwers"
+      },
+      {
+        "function": "Medewerker",
+        "firstName": "Wannes",
+        "lastName": " Depoortere"
+      },
+      { "function": "Medewerker", "firstName": "Jelle", "lastName": "Devroey" },
+      {
+        "function": "Medewerker",
+        "firstName": "Maarten ",
+        "lastName": "Gyselinck"
+      },
+      {
+        "function": "Medewerker",
+        "firstName": "Milo",
+        "lastName": "Landeloos Mia"
+      },
+      {
+        "function": "Medewerker",
+        "firstName": "Lore",
+        "lastName": "Vandendurpel"
+      },
+
+      { "function": "Schacht", "firstName": "Pieter", "lastName": "Thomassen" },
+
+      { "function": "Schacht", "firstName": "Karel", "lastName": "Heremans" }
+    ]
+  },
+  "2021-2022": {}
+}
