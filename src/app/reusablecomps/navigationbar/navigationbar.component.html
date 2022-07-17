@@ -2,35 +2,45 @@
   <nav>
     <ul>
       <li>
-        <a [routerLink]="['/']" routerLinkActive="router-link-active">
-          {{ homepage }}
+        <a class="navbar-brand" [routerLink]="['/']" routerLinkActive="router-link-active">
+          <img src="/assets/images/BKlogo_HQ.png" alt="bierkultuur logo">
         </a>
       </li>
-      <li>
-        <a [routerLink]="['/about-us']" routerLinkActive="router-link-active">
-          {{ aboutUs }}
-        </a>
-      </li>
-      <li>
-        <a [routerLink]="['/contact']" routerLinkActive="router-link-active">
-          {{ contact }}
-        </a>
-      </li>
-      <li>
-        <a [routerLink]="['/board']" routerLinkActive="router-link-active">
-          {{ board }}
-        </a>
-      </li>
-      <li>
-        <a [routerLink]="['/calendar']" routerLinkActive="router-link-active">
-          {{ calendar }}
-        </a>
-      </li>
-      <li>
-        <a [routerLink]="['/events']" routerLinkActive="router-link-active">
-          {{ events }}
-        </a>
-      </li>
+      <div class="navbar-container">
+        <li>
+          <a [routerLink]="['/']" routerLinkActive="router-link-active">
+            {{ homepage }}
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/about-us']" routerLinkActive="router-link-active">
+            {{ aboutUs }}
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/contact']" routerLinkActive="router-link-active">
+            {{ contact }}
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/board']" routerLinkActive="router-link-active">
+            {{ board }}
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/calendar']" routerLinkActive="router-link-active">
+            {{ calendar }}
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/events']" routerLinkActive="router-link-active">
+            {{ events }}
+          </a>
+        </li>
+      </div>
     </ul>
   </nav>
+  <ng-content select=".page-title"></ng-content>
+  <ng-content select=".title-description"></ng-content>
+  <ng-content select=".extra-description"></ng-content>
 </div>
