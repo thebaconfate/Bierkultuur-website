@@ -2,12 +2,12 @@
 .title-description,
 .extra-description {
   color: white;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 h1.intro-text {
   margin-top: 2em;
   margin-bottom: 3em;
-  margin-left: 2rem;
+  margin-left: 3rem;
   max-width: fit-content;
 }
 h1.page-title {
@@ -19,9 +19,10 @@ h1.page-title {
   margin-top: 1em;
   max-width: 18em;
 }
-picture {
-  margin-inline-start: 2rem;
-  margin-inline-end: 2rem;
+picture,
+.footer-container {
+  margin-inline-start: 3rem;
+  margin-inline-end: 3rem;
   display: flex;
 }
 figure {
@@ -36,13 +37,34 @@ figure:nth-child(3),
 figure:nth-child(2) {
   margin-left: 1rem;
 }
-.picture-container {
-  max-width: calc(100%);
-}
 img {
   max-width: calc(100%);
-  height: auto;
 }
-figcaption {
+figcaption > h3 {
   text-align: center;
+  font-family: sans-serif;
+  margin-top: 1em;
+  font-weight:lighter;
+  font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+}
+.footer-container {
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+div.tel-container {
+  margin-top: 1em;
+}
+a.telnr {
+  color: gray;
+  font-weight: 100;
+}
+.details-container {
+  margin-left: 10em;
+  margin-right: 10em;
+  font-weight: 200;
+}
+.social-media-container {
+  justify-content: space-between;
+  margin-left: auto;
+  padding-right: 10em;
 }
