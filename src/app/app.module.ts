@@ -11,6 +11,9 @@ import { ContactComponent } from './contact/contact.component';
 import { EventsComponent } from './events/events.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavigationbarComponent } from './reusablecomps/navigationbar/navigationbar.component';
+import { InstaComponent } from './reusablecomps/socialmedia/insta/insta.component';
+import { FbComponent } from './reusablecomps/socialmedia/fb/fb.component';
+import { SocialmediaComponent } from './reusablecomps/socialmedia/socialmedia.component';
 
 
 @NgModule({
@@ -24,6 +27,9 @@ import { NavigationbarComponent } from './reusablecomps/navigationbar/navigation
     EventsComponent,
     PageNotFoundComponent,
     NavigationbarComponent,
+    InstaComponent,
+    FbComponent,
+    SocialmediaComponent,
   ],
   imports: [
     BrowserModule,

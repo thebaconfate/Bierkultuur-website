@@ -1,39 +1,11 @@
-// Mobile S
-@media (max-width: 320px) {
-}
-// Mobile M
-@media (max-width: 375px) {
-}
-// Mobile L
-@media (max-width: 425px) {
-}
-// tablet
-@media (max-width: 768px) {
-}
-// laptop
-@media (max-width: 1024px) {
-}
-// laptop L
-@media (max-width: 1440px) {
-}
-// laptop L
-@media (max-width: 2560px) {
-}
-
 .header-background {
-  background-image: url("/assets/images/52044553921_d905d8132a_o.jpg");
-  margin-top: 0;
-  min-height: 650px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   ul {
     margin-top: 0;
     padding: 2em;
     list-style-type: none;
     div.navbar-container {
       float: right;
-      margin-right: 2em;
+      margin-right: 3rem;
       display: flex;
       flex-wrap: wrap;
     }
@@ -44,6 +16,7 @@
         Cantarell;
       text-transform: uppercase;
       margin-left: 2em;
+      font-size: calc((1.5 - 1) * 0.5vw + 1rem);
       a:link {
         text-decoration: none;
         color: white;
@@ -57,6 +30,11 @@
     }
     li:first-child {
       float: left;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    a {
+      font-size: calc((2 - 1) * 0.5vw + 1rem);
     }
   }
 }

@@ -1,59 +1,60 @@
-<app-navigationbar>
-    <h1 class="page-title"> {{ homepageTitle }} </h1>
-    <h2 class="title-description"> {{ homepageTitleDescription }}</h2>
-    <h3 class="extra-description"> {{ extraTitleDescription }}</h3>
+<div class="background">
+    <app-navigationbar>
+        <h1 class="page-title"> {{ homepageTitle }} </h1>
+        <h2 class="title-description"> {{ homepageTitleDescription }}</h2>
+        <h4 class="extra-description"> {{ extraTitleDescription }}</h4>
 </app-navigationbar>
-<h1 class="intro-text">{{ homepageIntro }}</h1>
-<picture class="picture-container">
+</div>
+<h3 class="intro-text">{{ homepageIntro }}</h3>
+<picture class="picture-container container">
     <figure>
-        <img src="/assets/images/Screenshot_9.png" alt="Voorzitter">
+        <img src="/assets/images/homepage/voorzitter.jpg" alt="Voorzitter">
         <figcaption>
             <h3>
                 Voorzitter <br> Brent Cornet
             </h3>
         </figcaption>
         <div class="tel-container">
-            <a class="telnr" href="tel:+">+32 486 75 73 11</a>
+            <a class="telnr" href="tel:+32 486 75 73 11">+32 486 75 73 11</a>
         </div>
     </figure>
     <figure>
-        <img src="/assets/images/Screenshot_9.png" alt="Ondervoorzitter">
+        <img src="/assets/images/homepage/ondervoorzitter.jpg" alt="Ondervoorzitter" />
         <figcaption>
             <h3>
                 Ondervoorzitter <br> Jorre Bultynck
             </h3>
         </figcaption>
         <div class="tel-container">
-            <a class="telnr" href="tel:+">+32 471 54 24 77</a>
+            <a class="telnr" href="tel:+32 471 54 24 77">+32 471 54 24 77</a>
         </div>
     </figure>
     <figure>
-        <img src="/assets/images/Screenshot_9.png" alt="Doopmeester">
+        <img src="/assets/images/homepage/doopmeester.jpg" alt="Doopmeester" />
         <figcaption>
             <h3>
                 Doopmeester <br> Wout Wilmaers
             </h3>
         </figcaption>
         <div class="tel-container">
-            <a class="telnr" href="tel:+">+32 495 11 29 89</a>
+            <a class="telnr" href="tel:+32 495 11 29 89">+32 495 11 29 89</a>
         </div>
     </figure>
 </picture>
-<div class="footer-container">
-    <div>
-        <h1 class="footer-title-container">
+<footer class="container">
+    <div class="footer-container">
+        <p class="footer-title">
             Bierkultuur
-        </h1>
+        </p>
     </div>
-    <div>
-        <h3 class="details-container">
+    <div class="footer-container">
+        <p class="details">
             Pleinlaan 2 <br>
             1050 Brussel (Elsene) <br>
-            <a href="tel:+">some phone number</a>
-        </h3>
+            <a href="tel:+32 486 75 73 11">+32 486 75 73 11</a>
+        </p>
     </div>
-    <picture class="social-media-container">
-        <!-- TODO: make a separate component for each social media so you can inject it where you need it (inject here and in navbar)-->
-        instagram; flickr, fb
+    <picture class="footer-container">
+        <app-socialmedia></app-socialmedia>
     </picture>
-</div>
+</footer>
