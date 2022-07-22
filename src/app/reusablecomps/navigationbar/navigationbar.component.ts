@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigationbar.component.scss'],
 })
 export class NavigationbarComponent implements OnInit {
-  homepage: string = 'Bierkultuur';
+  homepage: string = 'Home';
   aboutUs: string = 'Over ons';
   contact: string = 'Contact';
   board: string = 'Bestuur';

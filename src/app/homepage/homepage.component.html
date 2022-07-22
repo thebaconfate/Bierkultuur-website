@@ -1,2 +1,60 @@
-<h1>Bierkultuur</h1>
-<h2>Promoot de goede smaak sinds 2005!</h2>
+<div class="background">
+    <app-navigationbar>
+        <h1 class="page-title"> {{ homepageTitle }} </h1>
+        <h2 class="title-description"> {{ homepageTitleDescription }}</h2>
+        <h4 class="extra-description"> {{ extraTitleDescription }}</h4>
+</app-navigationbar>
+</div>
+<h3 class="intro-text">{{ homepageIntro }}</h3>
+<picture class="picture-container container">
+    <figure>
+        <img src="/assets/images/homepage/voorzitter.jpg" alt="Voorzitter">
+        <figcaption>
+            <h3>
+                Voorzitter <br> Brent Cornet
+            </h3>
+        </figcaption>
+        <div class="tel-container">
+            <a class="telnr" href="tel:+32 486 75 73 11">+32 486 75 73 11</a>
+        </div>
+    </figure>
+    <figure>
+        <img src="/assets/images/homepage/ondervoorzitter.jpg" alt="Ondervoorzitter" />
+        <figcaption>
+            <h3>
+                Ondervoorzitter <br> Jorre Bultynck
+            </h3>
+        </figcaption>
+        <div class="tel-container">
+            <a class="telnr" href="tel:+32 471 54 24 77">+32 471 54 24 77</a>
+        </div>
+    </figure>
+    <figure>
+        <img src="/assets/images/homepage/doopmeester.jpg" alt="Doopmeester" />
+        <figcaption>
+            <h3>
+                Doopmeester <br> Wout Wilmaers
+            </h3>
+        </figcaption>
+        <div class="tel-container">
+            <a class="telnr" href="tel:+32 495 11 29 89">+32 495 11 29 89</a>
+        </div>
+    </figure>
+</picture>
+<footer class="container">
+    <div class="footer-container">
+        <p class="footer-title">
+            Bierkultuur
+        </p>
+    </div>
+    <div class="footer-container">
+        <p class="details">
+            Pleinlaan 2 <br>
+            1050 Brussel (Elsene) <br>
+            <a href="tel:+32 486 75 73 11">+32 486 75 73 11</a>
+        </p>
+    </div>
+    <picture class="footer-container">
+        <app-socialmedia></app-socialmedia>
+    </picture>
+</footer>

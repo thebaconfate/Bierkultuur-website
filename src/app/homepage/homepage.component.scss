@@ -1,0 +1,121 @@
+.background {
+  background-image: url("/assets/images/navigation/background.jpg");
+  margin-top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-title,
+.title-description,
+.extra-description {
+  color: white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.intro-text {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 3rem;
+  max-width: fit-content;
+}
+h1.page-title {
+  margin-top: 5em;
+  max-width: fit-content;
+}
+.title-description,
+.extra-description {
+  margin-top: 1em;
+  max-width: 18em;
+}
+
+.container {
+  margin-inline-start: 3rem;
+  margin-inline-end: 3rem;
+}
+
+.extra-description {
+  padding-bottom: 4em;
+}
+
+picture.picture-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+figure {
+  object-fit: cover;
+  width: calc(100%);
+  text-align: center;
+}
+
+img {
+  width: calc(100%);
+  aspect-ratio: 1/1;
+}
+figcaption > h3 {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 1em;
+  font-weight: lighter;
+}
+footer {
+  margin-top: 5rem;
+  margin-bottom: 5em;
+  display: flex;
+}
+
+a.telnr {
+  color: gray;
+  font-weight: 100;
+  font-size: calc((2.2 - 1) * 0.3vw + 1rem);
+}
+
+@media screen and (max-width: 426px) {
+  picture.picture-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+p {
+  font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+}
+
+.footer-container {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.footer-container:first-child {
+  margin-left: 0;
+}
+
+.footer-container:last-child {
+  margin-right: 0;
+  margin-left: 15em;
+}
+.details,
+.footer-title {
+  font-family: poppins;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+.details {
+  line-height: 1.2em;
+}
+
+.social-media {
+  display: flex;
+}
+
+.details > a {
+  font-size: calc((1.2 - 1) * 0.5vw + 1rem);
+  color: gray;
+}
+
+.details {
+  color: gray;
+}
