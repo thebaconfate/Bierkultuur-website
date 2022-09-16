@@ -1,6 +1,19 @@
 <div class="navigationbar">
-<a href="" class="navbrand">
-
-</a>
-<input type="checkbox" class="">
+    <a routerLink="/" routerLinkActive="active" class="navbrand">
+        <img src="./assets/images/navigation/logo.png" alt="">
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+        <ul>
+            <li><a routerLink="/" routerLinkActive="active">{{ homepage }}</a></li>
+            <li><a routerLink="/about-us" routerLinkActive="active">{{ aboutUs }}</a></li>
+            <li><a routerLink="/contact" routerLinkActive="active">{{ contact }}</a></li>
+            <li><a routerLink="/board">{{ board }}</a></li>
+            <li><a routerLink="/calendar" routerLinkActive="active">{{ calendar }}</a></li>
+            <li><a routerLink="/events" routerLinkActive="active"> {{ events }}</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span>teef</span>
+    </label>
 </div>
