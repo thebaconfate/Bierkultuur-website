@@ -2,18 +2,25 @@
   border: 1px solid red;
 }
 
-.navbrand {
-  width: 100%;
+.navigationbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
 }
 
 nav {
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
 }
 
 nav ul {
   list-style: none;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 nav li {
@@ -35,4 +42,13 @@ nav a {
 
 .nav-toggle {
   display: none;
+}
+
+img {
+  width: 15vw;
+  height: auto;
+}
+
+.navbar-brand {
+  display: flex;
 }
