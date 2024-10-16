@@ -2,6 +2,10 @@
 
 This is the source code for the client of the website for the student association Bierkultuur at the VUB. Feel free to contribute.
 
+## UPDATE
+
+Project is continued elsewhere. This repository is no longer maintained
+
 Contributers:
 
 - Gérard Lichtert
